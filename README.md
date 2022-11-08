@@ -2,12 +2,6 @@
 
 # Sentinel Nacos 双向同步持久化版本
 
-[![Sentinel CI](https://github.com/alibaba/Sentinel/actions/workflows/ci.yml/badge.svg)](https://github.com/alibaba/Sentinel/actions/workflows/ci.yml)
-[![Codecov](https://codecov.io/gh/alibaba/Sentinel/branch/master/graph/badge.svg)](https://codecov.io/gh/alibaba/Sentinel)
-[![Maven Central](https://img.shields.io/maven-central/v/com.alibaba.csp/sentinel-core.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:com.alibaba.csp%20AND%20a:sentinel-core)
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![Gitter](https://badges.gitter.im/alibaba/Sentinel.svg)](https://gitter.im/alibaba/Sentinel)
-
 ## 打包命令
 
 mvn clean package -DskipTests
