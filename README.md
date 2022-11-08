@@ -8,6 +8,16 @@
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Gitter](https://badges.gitter.im/alibaba/Sentinel.svg)](https://gitter.im/alibaba/Sentinel)
 
+## 打包命令
+
+mvn clean package -DskipTests
+
+然后将 sentinel-dashboard.jar 改名为 sentinel-dashboard-nacos-1.8.6.jar
+
+## 启动命令参考
+
+java -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=sentinel-dashboard -DserverAddr=localhost:8848 -Dnamespace=@namespace@ -jar ./sentinel/sentinel-dashboard-nacos-1.8.6.jar
+
 ## Introduction
 
 As distributed systems become increasingly popular, the reliability between services is becoming more important than ever before.
